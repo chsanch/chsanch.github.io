@@ -1,0 +1,56 @@
+baseURL = 'http://chsanch.com/'
+languageCode = 'en-us'
+title = 'Christian Sánchez'
+theme = "hello-friend-ng"
+paginate = 10
+copyright = "Copisas asd as"
+
+[author]
+  name = "Christian Sánchez"
+
+[params]
+  dateform = "Jan 2, 2006"
+  dateformShort = "Jan 2"
+  dateformNum = "02-01-2006"
+  dateformNumTime = "02-01-2006 15:04"
+
+  homeSubtitle = "Software Engineer"
+  enableSharingButtons = true
+
+  enableThemeToggle = true
+  copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+
+  [params.logo]
+    logoMark = ">"
+    logoText = "$ cd /home/"
+    logoHomeLink = "/"
+    logoCursorColor = "#18d838"
+
+  [params.footer]
+    trademark = true
+    copyright = false
+    author = true
+    topText = []
+    bottomText = [
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+      "Theme by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+    ]
+
+
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+  [[ params.social ]]
+    name = "github"
+    url = "https://github.com/chsanch"
+  [[ params.social ]]
+    name = "twitter"
+    url = "https://twitter.com/chsanch"
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/chsanch"
+  [[params.social]]
+    name = "instagram"
+    url  = "https://www.instagram.com/chsanch"
