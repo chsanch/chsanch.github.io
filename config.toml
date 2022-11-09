@@ -1,4 +1,4 @@
-baseURL = 'http://chsanch.com/'
+baseURL = 'http://chsanch.github.io/'
 languageCode = 'en-us'
 title = 'Christian Sánchez'
 theme = "hello-friend-ng"
